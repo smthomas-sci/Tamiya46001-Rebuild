@@ -1,14 +1,3 @@
-<style>
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-body {
-    font-family: Roboto;
-}
-
-</style>
-
 # Tamiya Thunder Shot 46001 Rebuild
 
 This project details the rebuild of my old remote control car using Arudino boards
@@ -30,14 +19,7 @@ visceral elements is the sound of the motor.
 I've included a video below of the final result with me driving it, which cements the sound
  of a deep childhood memory.
 
-<div style="text-align: center">
-<figure>
 <video src="./assets/rc_car_driving.mp4" height="600"></video>
-<br>
-<figcap>Final working version of the rebuilt car.</figcap>
-</figure>
-
-</div>
 
 ## Thunder Shot 46001
 
