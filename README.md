@@ -19,7 +19,7 @@ visceral elements is the sound of the motor.
 I've included a video below of the final result with me driving it, which cements the sound
  of a deep childhood memory.
 
-<video src="./assets/rc_car_driving.mp4" height="600"></video>
+<video src="https://raw.githubusercontent.com/smthomas-sci/Tamiya46001-Rebuild/main/assets/rc_car_driving.mp4" height="600" controls></video>
 
 ## Thunder Shot 46001
 
