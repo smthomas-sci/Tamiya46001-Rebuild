@@ -19,7 +19,7 @@ visceral elements is the sound of the motor.
 I've included a video below of the final result with me driving it, which cements the sound
  of a deep childhood memory.
 
-<video src="https://raw.githubusercontent.com/smthomas-sci/Tamiya46001-Rebuild/main/assets/rc_car_driving.mp4" height="600" controls></video>
+<video src="https://github.com/user-attachments/assets/88d9535b-7807-441a-a4aa-c4f131b0bca7" height="600" controls></video>
 
 ## Thunder Shot 46001
 
@@ -31,6 +31,7 @@ I've included a video below of the final result with me driving it, which cement
  <a href="https://tamiyabase.com/tamiya-models/46001">https://tamiyabase.com/tamiya-models/46001</a>
 </figcap>
 </figure>
+<br>
 
 | Detail | Value |
 | --- | --- |
