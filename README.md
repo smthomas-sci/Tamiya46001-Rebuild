@@ -70,7 +70,7 @@ There are two major sub-systems to the car, namely the car itself (System I), an
  <a href="https://tamiyabase.com/box-art/518-46001">https://tamiyabase.com/box-art/518-46001</a>
 </figcap>
 </figure>
-
+<br>
 
 ### System I
 
@@ -80,6 +80,7 @@ There are two major sub-systems to the car, namely the car itself (System I), an
 <figcap>System I consists of 6 components: Batteries, Motor 1 (M1), Motor 2 (M2), Arduino logic controller, Arduino motor shield and a bluetooth module
 </figcap>
 </figure>
+<br>
 
 The car itself has two motors, M1 and M2. M1 controls the steering, and M2 controls the propulsion. Both of them need to be powered by a motor shield which is controlled by the Arduino. In my case I chose an [Arduino UNO Rev 3](#com_1) and its compatible [Motor Shield](#com_2). Over the course of experimentation, I played around with different boards and shields, finally settling on this pair.
 Lastly, to recieve signals from the remote I chose a master-slave [Bluetooth Module](#com_3) pair. 
@@ -93,7 +94,7 @@ instructions.
 <figcap>M1 Schematic.
 </figcap>
 </figure>
-
+<br>
 
 
 #### Example Motor Code
@@ -179,7 +180,7 @@ void loop() {
 <figcap>M2 Schematic.
 </figcap>
 </figure>
-
+<br>
 
 As mentioned, we take an analogue read value and map it to a value that determines the speed at which the drive motor should run.
 
@@ -191,6 +192,7 @@ As mentioned, we take an analogue read value and map it to a value that determin
 <figcap>System II consists of 5 components: Batteries, Slider Linear Potentiometer, Rotational Linear Potentiometer, Arduino logic controller, and a bluetooth module
 </figcap>
 </figure>
+<br>
 
 The remote has two main physical controllers, namely the trigger which controls drive power, and the steering dial. Both of these mechanisms translate physical position using a linear potentiometer. 
 For the power I used a [slider](#com_4), modifying it so it would work with the trigger mechanism.
@@ -205,7 +207,7 @@ Again, I had the other Bluetooth pair and finally controller all the logic via a
 <figcap>System II Schematic.
 </figcap>
 </figure>
-
+<br>
 
 Although I do not have the exact code I used for the Bluetooth modules, there are plenty of tutorials online about paring them together [2](#ref_2).
 
