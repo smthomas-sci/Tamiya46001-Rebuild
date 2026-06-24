@@ -9,7 +9,7 @@
 </figure>
 <br>
 
-This project details the rebuild of my old remote control car using Arudino boards
+This project details the rebuild of my old remote control car using Arduino boards
 and other consumer electronics components. Beginning in January 2023 and completed
 in January 2025, in my spare time I took my very old Tamiya Thunder Shot QD (46001)
 which no longer worked, and restored it to working condition.
@@ -20,7 +20,7 @@ I was able to solve problems bottom up without any preconcieved notions of what 
 as to why the car was built the way it was, as well as understand first hand the contraints
 of a real-time remote controller. Of course, I was limited to what I understood to be
 functional solutions to my problems, rather than best-in-class solutions. However, for most
-solutions this is really only a difference of degree rather than kind. The result is a 
+solutions it amounted to only a difference of degree rather than kind. The result is a 
 fully operational remote control car, reviving the childhood joy I remember experiencing when playing
 with this car. Indeed, for those familiar with these toys, one of the most striking and
 visceral elements is the sound of the motor.
@@ -52,18 +52,19 @@ I've included a video below of the final result with me driving it, which cement
 | **Body material** | ABS |
 
 
-The above information is an overview of the car. From the release date, you can see
+The above information is an overview of the car <sup><a href="#ref-1">[1]</a></sup>.
+From the release date, you can see
 that we are dealing with a ~35 year old car by the year 2023. From memory I believe
 the experience involved a lot of anticipation while we (my older siblings and I) charged
 the batteries, which when finally ready, gave us a joyous yet fleeting 5 to 10 minutes of drive
 time. Afterwards those batteries went straight back onto the charger for what was another
 few hours. Being the youngest, I think I hardly had a turn, but we know there is magic in
-spectator sports <sup><a href="#ref-1">[1]</a></sup>.
+spectator sports <sup><a href="#ref-2">[2]</a></sup>.
 
 I think it stop working after only a few years. I can't remember why because I was only very
 young (4-6 years old). After that it became a fixture in my imagination, hoping to one day
-see it working again. I never actually had another toy remote control car after this one, although
-they obviously became increasingly cheaper and more performative.
+see it working again. I never actually had another remote control car after this one, although
+they obviously became increasingly cheaper and performative. Regardless, this was the only car for me.
 
 ## Design Overview
 
@@ -88,9 +89,9 @@ There are two major sub-systems to the car, namely the car itself (System I), an
 </figure>
 <br>
 
-The car itself has two motors, M1 and M2. M1 controls the steering, and M2 controls the propulsion. Both of them need to be powered by a motor shield which is controlled by the Arduino. In my case I chose an [Arduino UNO Rev 3](#com_1) and its compatible [Motor Shield](#com_2). Over the course of experimentation, I played around with different boards and shields, finally settling on this pair.
+The car itself has two motors, referred to in the schematic as M1 and M2. M1 controls the steering, and M2 controls the propulsion. Both of them need to be powered by a motor shield which is controlled by the Arduino. In my case I chose an [Arduino UNO Rev 3](#com_1) and its compatible [Motor Shield](#com_2). Over the course of experimentation, I played around with different boards and shields, finally settling on this pair.
 Lastly, to recieve signals from the remote I chose a master-slave [Bluetooth Module](#com_3) pair. 
-Ironically the car bluetooth module was designated as the master while only passively recieving 
+Ironically the car bluetooth module was designated as the master while only passively receiving 
 instructions.
 
 
@@ -199,12 +200,13 @@ As mentioned, we take an analogue read value and map it to a value that determin
 </figcap>
 </figure>
 <br>
+<br>
 
 The remote has two main physical controllers, namely the trigger which controls drive power, and the steering dial. Both of these mechanisms translate physical position using a linear potentiometer. 
 For the power I used a [slider](#com_4), modifying it so it would work with the trigger mechanism.
 I only used a small range of the slider, maping the read values to a usable range. The steering
 mechanism remained intact, in taking it apart I learned it was a regular [potentiometer](#com_5).
-Again, I had the other Bluetooth pair and finally controller all the logic via an
+Again, I had the other Bluetooth pair and finally controlled all the logic via an
 [Arduino Nano Development Board ](#com_6). Amazingly I was able to fit all of these components into the housing of the remote without too much trouble.
 
 <figure>
@@ -215,7 +217,7 @@ Again, I had the other Bluetooth pair and finally controller all the logic via a
 </figure>
 <br>
 
-Although I do not have the exact code I used for the Bluetooth modules, there are plenty of tutorials online about paring them together <sup> [\[2\]](#ref_2).</sup>
+Although I do not have the exact code I used for the Bluetooth modules, there are plenty of tutorials online about paring them together <sup> [\[3\]](#ref_3).</sup>
 
 
 ## Components
@@ -273,8 +275,15 @@ the remote e.g. Arduino NANO and Bluetooth Module.</figcap>
 </figure>
 <br>
 
+## Conclusion
+
+This project was my first major foray into Arduino, building something both useful and challenging. At the end of it I would say that the cost of experimenting, blurning boards, replacement parts, breaking components by accident etc amounted to the most expensive remote control car project ever! Something on the order of \$300-\$400. As a comparison, I bought my son a brand new remote control car from Jaycar for \$35, and it far surpasses the quality and robustness of the Thundershot rebuild. However,
+it was a fun and educational journey that had many many obstacles that needed to be overcome. If any
+thing the completion of the project was a testament to the need to carry on, and so long as we are moving forward we will reach our destination. Two years of fun, challenges and learning amounts
+to pennies in that context. It also set me up nicely for more ambition projects in the future.
 
 ## References
 
-1.  <span id="ref_1"></span> Ownsworth et. al (2024). *Watching sports is good for you – thanks to its social bonding effects*. https://doi.org/10.64628/AB.vmj4fg55a Available at: https://theconversation.com/watching-sports-is-good-for-you-thanks-to-its-social-bonding-effects-231781
-2. <span id="ref_2"></span> How To Mechatronics (2016). *How To Configure and Pair Two HC-05 Bluetooth Module as Master and Slave | AT Commands*. Available at: https://www.youtube.com/watch?v=hyME1osgr7s
+1. <span id="ref_1"></span> Tamiya Base. *Tamiya Thunder Shot QD (46001)*. Available from https://tamiyabase.com/tamiya-models/46001
+2.  <span id="ref_2"></span> Ownsworth et. al (2024). *Watching sports is good for you – thanks to its social bonding effects*. https://doi.org/10.64628/AB.vmj4fg55a Available at: https://theconversation.com/watching-sports-is-good-for-you-thanks-to-its-social-bonding-effects-231781
+3. <span id="ref_3"></span> How To Mechatronics (2016). *How To Configure and Pair Two HC-05 Bluetooth Module as Master and Slave | AT Commands*. Available at: https://www.youtube.com/watch?v=hyME1osgr7s
