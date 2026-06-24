@@ -61,7 +61,7 @@ time. Afterwards those batteries went straight back onto the charger for what wa
 few hours. Being the youngest, I think I hardly had a turn, but we know there is magic in
 spectator sports [\[2\]](#ref_2).
 
-I think it stop working after only a few years. I can't remember why because I was only very
+I think it stopped working after only a few years. I can't remember why because I was only very
 young (4-6 years old). After that it became a fixture in my imagination, hoping to one day
 see it working again. I never actually had another remote control car after this one, although
 they obviously became increasingly cheaper and performative. Regardless, this was the only car for me.
