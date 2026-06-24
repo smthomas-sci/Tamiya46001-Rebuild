@@ -204,7 +204,7 @@ As mentioned, we take an analogue read value and map it to a value that determin
 
 The remote has two main physical controllers, namely the trigger which controls drive power, and the steering dial. Both of these mechanisms translate physical position using a linear potentiometer. 
 For the power I used a [slider](#com_4), modifying it so it would work with the trigger mechanism.
-I only used a small range of the slider, maping the read values to a usable range. The steering
+I only used a small range of the slider, mapping the read values to a usable range. The steering
 mechanism remained intact, in taking it apart I learned it was a regular [potentiometer](#com_5).
 Again, I had the other Bluetooth pair and finally controlled all the logic via an
 [Arduino Nano Development Board ](#com_6). Amazingly I was able to fit all of these components into the housing of the remote without too much trouble.
