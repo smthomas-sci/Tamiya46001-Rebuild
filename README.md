@@ -52,14 +52,14 @@ I've included a video below of the final result with me driving it, which cement
 | **Body material** | ABS |
 
 
-The above information is an overview of the car <sup><a href="#ref-1">[1]</a></sup>.
+The above information is an overview of the car [\[1\]](#ref_1).
 From the release date, you can see
 that we are dealing with a ~35 year old car by the year 2023. From memory I believe
 the experience involved a lot of anticipation while we (my older siblings and I) charged
 the batteries, which when finally ready, gave us a joyous yet fleeting 5 to 10 minutes of drive
 time. Afterwards those batteries went straight back onto the charger for what was another
 few hours. Being the youngest, I think I hardly had a turn, but we know there is magic in
-spectator sports <sup><a href="#ref-2">[2]</a></sup>.
+spectator sports [\[2\]](#ref_2).
 
 I think it stop working after only a few years. I can't remember why because I was only very
 young (4-6 years old). After that it became a fixture in my imagination, hoping to one day
@@ -217,7 +217,7 @@ Again, I had the other Bluetooth pair and finally controlled all the logic via a
 </figure>
 <br>
 
-Although I do not have the exact code I used for the Bluetooth modules, there are plenty of tutorials online about paring them together <sup> [\[3\]](#ref_3).</sup>
+Although I do not have the exact code I used for the Bluetooth modules, there are plenty of tutorials online about paring them together [\[3\]](#ref_3).
 
 
 ## Components
