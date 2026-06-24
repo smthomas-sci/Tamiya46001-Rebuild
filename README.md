@@ -277,7 +277,7 @@ the remote e.g. Arduino NANO and Bluetooth Module.</figcap>
 
 ## Conclusion
 
-This project was my first major foray into Arduino, building something both useful and challenging. At the end of it I would say that the cost of experimenting, blurning boards, replacement parts, breaking components by accident etc amounted to the most expensive remote control car project ever! Something on the order of \$300-\$400. As a comparison, I bought my son a brand new remote control car from Jaycar for \$35, and it far surpasses the quality and robustness of the Thundershot rebuild. However,
+This project was my first major foray into Arduino, building something both useful and challenging. At the end of it I would say that the cost of experimenting, burning boards, replacement parts, breaking components by accident etc amounted to the most expensive remote control car project ever! Something on the order of \$300-\$400. As a comparison, I bought my son a brand new remote control car from Jaycar for \$35, and it far surpasses the quality and robustness of the Thundershot rebuild. However,
 it was a fun and educational journey that had many many obstacles that needed to be overcome. If any
 thing the completion of the project was a testament to the need to carry on, and so long as we are moving forward we will reach our destination. Two years of fun, challenges and learning amounts
 to pennies in that context. It also set me up nicely for more ambition projects in the future.
