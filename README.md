@@ -1,5 +1,14 @@
 # Tamiya Thunder Shot 46001 Rebuild
 
+<figure>
+<img height="200" src="./assets/model_46001.jpg" />
+<br>
+<figcap>Image retrieved from
+ <a href="https://tamiyabase.com/tamiya-models/46001">https://tamiyabase.com/tamiya-models/46001</a>
+</figcap>
+</figure>
+<br>
+
 This project details the rebuild of my old remote control car using Arudino boards
 and other consumer electronics components. Beginning in January 2023 and completed
 in January 2025, in my spare time I took my very old Tamiya Thunder Shot QD (46001)
@@ -19,19 +28,17 @@ visceral elements is the sound of the motor.
 I've included a video below of the final result with me driving it, which cements the sound
  of a deep childhood memory.
 
+<figure>
 <video src="https://github.com/user-attachments/assets/88d9535b-7807-441a-a4aa-c4f131b0bca7" height="600" controls></video>
+<br>
+<figcap><b>Test Drive:</b> Final test drive of the car.</figcap>
+</figure>
+</br>
 
 ## Thunder Shot 46001
 
 
-<figure>
-<img height="200" src="./assets/model_46001.jpg" />
-<br>
-<figcap>Image retrieved from
- <a href="https://tamiyabase.com/tamiya-models/46001">https://tamiyabase.com/tamiya-models/46001</a>
-</figcap>
-</figure>
-<br>
+
 
 | Detail | Value |
 | --- | --- |
@@ -41,7 +48,6 @@ I've included a video below of the final result with me driving it, which cement
 | **Kit type** | Factory Built, with Radio |
 | **Scale** | 1/14 |
 | **Release date** | 31 May 1988 |
-| **Price at release date** | 9980 Yen |
 | **Type of model** | Buggy |
 | **Body material** | ABS |
 
@@ -52,7 +58,7 @@ the experience involved a lot of anticipation while we (my older siblings and I)
 the batteries, which when finally ready, gave us a joyous yet fleeting 5 to 10 minutes of drive
 time. Afterwards those batteries went straight back onto the charger for what was another
 few hours. Being the youngest, I think I hardly had a turn, but we know there is magic in
-spectator sports <a href="#ref-1">[1]</a>.
+spectator sports <sup><a href="#ref-1">[1]</a></sup>.
 
 I think it stop working after only a few years. I can't remember why because I was only very
 young (4-6 years old). After that it became a fixture in my imagination, hoping to one day
@@ -209,7 +215,7 @@ Again, I had the other Bluetooth pair and finally controller all the logic via a
 </figure>
 <br>
 
-Although I do not have the exact code I used for the Bluetooth modules, there are plenty of tutorials online about paring them together [2](#ref_2).
+Although I do not have the exact code I used for the Bluetooth modules, there are plenty of tutorials online about paring them together <sup> [\[2\]](#ref_2).</sup>
 
 
 ## Components
@@ -226,6 +232,46 @@ All components were sourced from Jaycar Australia.
 
 ## Gallery
 
+<figure>
+<img src="./assets/M1_naked.jpeg" height="400">
+<br>
+<figcap><b>Steering Motor: </b>M1  with the casing removed. Shows it is a DC motor coupled with a potentiometer. There is a gear on the end of the motor which then turns the potentiometer, which
+can then simultaneously be read to determine its position.</figcap>
+</figure>
+<br>
+
+<figure>
+<img src="./assets/bluetooth_playground.jpeg" height="400">
+<br>
+<figcap><b>Bluetooth: </b>Here is one of the early prototypes of working with the bluetooth module using
+the Arduino UNO.</figcap>
+</figure>
+<br>
+
+<figure>
+<video controls src="https://github.com/user-attachments/assets/dc5f7a45-2a50-4fde-9c7b-64004f16651e" height="400"></video>
+<br>
+<figcap><b>Early Steering Test: </b>A steering test using an early prototype, with an Arduion MEGA 
+and compatible motor shield.</figcap>
+</figure>
+<br>
+
+
+<figure>
+<video controls src="https://github.com/user-attachments/assets/bcf5acfc-f3d0-488c-8680-090ae9c0b51e" height="400"></video>
+<br>
+<figcap><b>Remote Control Test: </b>Testing the remote control setup.</figcap>
+</figure>
+<br>
+
+
+<figure>
+<img src="./assets/final_car.jpeg" height="400">
+<br>
+<figcap><b>Final Car: </b>Everything put back together, minus fitting all the components into 
+the remote e.g. Arduino NANO and Bluetooth Module.</figcap>
+</figure>
+<br>
 
 
 ## References
